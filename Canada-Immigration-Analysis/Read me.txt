@@ -1,0 +1,169 @@
+# 🇨🇦 Canada Immigration Analysis — The Japa Story In Data
+
+## 📊 Project Overview
+This project analyses Canadian Permanent Residence immigration 
+trends from 2015 to 2025 using real official data from the 
+Canadian government (IRCC).
+
+The analysis focuses on:
+- Nigeria's journey to becoming the 4th largest source country 
+  for Canadian PR globally
+- Which immigration pathways work best
+- Which provinces receive the most immigrants
+- The COVID-19 impact on immigration and Nigeria's recovery
+
+---
+
+## 🎯 Key Findings
+
+### Finding 1 — Nigeria Is #4 Globally
+Nigeria ranked 4th out of 218 countries in Canadian PR 
+admissions in 2024 with 20,395 admissions — and #1 among 
+ALL African countries.
+
+### Finding 2 — Economic Pathway Dominates
+Over 58% of all Canadian PR admissions come through the 
+Economic pathway (Express Entry + PNP). This is the fastest 
+and most reliable route to Canadian PR.
+
+### Finding 3 — Ontario Leads But Has Competition
+Ontario receives over 40% of all immigrants. However Manitoba 
+and Saskatchewan PNP programs offer better entry chances for 
+applicants with lower Express Entry scores.
+
+### Finding 4 — COVID Impact and Recovery
+COVID-19 caused Nigeria's admissions to crash from 12,600 in 
+2019 to 6,360 in 2020. By 2025 Nigeria had recovered to 
+16,355 — a 157% growth from the COVID low point.
+
+### Finding 5 — Nigeria Leads Africa
+Nigeria's PR admissions are almost double the second highest 
+African country (Eritrea) — demonstrating Nigerian immigrants' 
+strong educational qualifications and English language 
+proficiency advantage in the Canadian Express Entry system.
+
+---
+
+## 🛠️ Tools Used
+
+| Tool | Purpose |
+|---|---|
+| Microsoft Excel + Power Query | Data cleaning and transformation |
+| MySQL Workbench | SQL analysis and querying |
+| Microsoft Power BI | Dashboard and visualization |
+
+---
+
+## 📁 Data Source
+
+**Source:** Immigration, Refugees and Citizenship Canada (IRCC)  
+**Website:** open.canada.ca  
+**Coverage:** January 2015 — February 2026  
+**Last Updated:** February 2026  
+**Licence:** Open Government Licence — Canada
+
+### Datasets Used:
+1. Canada PR Admissions by Country of Citizenship
+2. Canada PR Admissions by Province and Immigration Category
+
+---
+
+## 🔄 Project Process
+
+### Step 1 — Data Collection
+Downloaded official IRCC datasets from open.canada.ca covering
+PR admissions by country and by province/immigration category.
+
+### Step 2 — Data Cleaning (Excel + Power Query)
+- Replaced "--" values with 0 (IRCC privacy protection)
+- Removed commas from numbers
+- Fixed messy merged header rows
+- Converted wide format to long format using Unpivot
+- Removed grand total rows
+- Created 4 clean datasets ready for analysis
+
+### Step 3 — SQL Analysis (MySQL Workbench)
+- Imported 4 CSV files into MySQL database
+- Wrote 10 analytical queries covering:
+  - Nigeria yearly trend
+  - Top 10 source countries
+  - Africa comparison
+  - COVID impact analysis
+  - Pathway popularity ranking
+  - Province rankings
+  - Province vs pathway breakdown
+
+### Step 4 — Dashboard (Power BI)
+- Connected cleaned CSV files to Power BI
+- Created DAX measures for KPIs
+- Built 2 dashboard pages:
+  - Page 1: Executive Overview (global picture)
+  - Page 2: Nigeria Deep Analysis
+
+---
+
+## 📸 Dashboard Preview
+
+### Page 1 — Executive Overview
+![Executive Overview](4_Screenshots/Dashboard_Page1_Executive_Overview.png)
+
+### Page 2 — Nigeria Analysis
+![Nigeria Analysis](4_Screenshots/Dashboard_Page2_Nigeria_Analysis.png)
+
+---
+
+## 💡 Recommendations
+
+Based on the data analysis:
+
+**For individuals planning to immigrate to Canada:**
+1. Focus on Express Entry — it accounts for the majority of 
+   Economic pathway admissions
+2. If your CRS score is low — target Manitoba or Saskatchewan 
+   PNP programs which have lower score requirements
+3. Atlantic provinces (Nova Scotia, New Brunswick, PEI, 
+   Newfoundland) offer special Atlantic Immigration Programs 
+   with more accessible entry requirements
+4. Avoid targeting only Ontario — competition is highest there
+
+**For policy makers and immigration consultants:**
+1. Nigeria shows sustained high demand for Canadian PR — 
+   dedicated Nigeria-focused immigration information programs 
+   would serve this growing market
+2. COVID demonstrated the need for digital processing systems 
+   that can maintain operations during global disruptions
+3. The 2023-2024 dip in admissions reflects Canada's 
+   immigration cap policy — numbers are expected to stabilize
+
+---
+
+## 📊 Key Statistics Summary
+
+| Metric | Value |
+|---|---|
+| Total Canada PR (2015-2025) | 8 Million+ |
+| Total Nigeria PR (2015-2025) | 139,000+ |
+| Nigeria Global Rank (2024) | #4 of 218 Countries |
+| Nigeria Africa Rank | #1 |
+| Nigeria Share of Canada PR | 3.52% |
+| Top Immigration Pathway | Economic (Express Entry + PNP) |
+| Top Destination Province | Ontario |
+| Nigeria COVID Recovery | +157% |
+| Peak Nigeria Year | 2022 (22,130 admissions) |
+
+---
+
+## 👩‍💻 About The Author
+
+**Precious Omondiale**  
+Data Analyst | Executive Assistant | Visa Consultant  
+Benin City, Nigeria
+
+*This project was completed as a final year data analytics 
+capstone project and presented to faculty panel.*
+
+---
+
+## 📬 Connect With Me
+- LinkedIn: [Your LinkedIn URL]
+- Email: [Your Email]
