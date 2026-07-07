@@ -1,6 +1,6 @@
 # 🇨🇦 Canada Immigration Analysis — The Japa Story In Data
 
-## 📊 Project Overview
+## Project Overview
 This project analyses Canadian Permanent Residence immigration 
 trends from 2015 to 2025 using real official data from the 
 Canadian government (IRCC).
@@ -14,7 +14,7 @@ The analysis focuses on:
 
 ---
 
-## 🎯 Key Findings
+##  Key Findings
 
 ### Finding 1 — Nigeria Is #4 Globally
 Nigeria ranked 4th out of 218 countries in Canadian PR 
@@ -44,7 +44,7 @@ proficiency advantage in the Canadian Express Entry system.
 
 ---
 
-## 🛠️ Tools Used
+##  Tools Used
 
 | Tool | Purpose |
 |---|---|
@@ -68,7 +68,7 @@ proficiency advantage in the Canadian Express Entry system.
 
 ---
 
-## 🔄 Project Process
+##  Project Process
 
 ### Step 1 — Data Collection
 Downloaded official IRCC datasets from open.canada.ca covering
@@ -102,14 +102,11 @@ PR admissions by country and by province/immigration category.
 
 ---
 
-## 📸 Dashboard Preview
+##  Dashboard Preview
 
 ### Page 1 — Executive Overview
-![Executive Overview](4_Screenshots/Dashboard_Page1_Executive_Overview.png)
 
 ### Page 2 — Nigeria Analysis
-![Nigeria Analysis](4_Screenshots/Dashboard_Page2_Nigeria_Analysis.png)
-
 ---
 
 ## 💡 Recommendations
@@ -134,13 +131,11 @@ Based on the data analysis:
    that can maintain operations during global disruptions
 3. The 2023-2024 dip in admissions reflects Canada's 
    immigration cap policy — numbers are expected to stabilize
-
 ---
 
 ## 📊 Key Statistics Summary
 
 | Metric | Value |
-|---|---|
 | Total Canada PR (2015-2025) | 8 Million+ |
 | Total Nigeria PR (2015-2025) | 139,000+ |
 | Nigeria Global Rank (2024) | #4 of 218 Countries |
@@ -165,5 +160,5 @@ capstone project and presented to faculty panel.*
 ---
 
 ## 📬 Connect With Me
-- LinkedIn: [Your LinkedIn URL]
-- Email: [Your Email]
+- LinkedIn: www.linkedin.com/in/precious-omondiale-266757403
+- Email: muziebee2@gmail.com
